@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+
+<html class="light" lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Caminhos de Coragem: Mulheres que iluminam e fazem a diferença</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&amp;display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#f4c025",
+                        "background-light": "#fcfbf8",
+                        "background-dark": "#221e10",
+                        "text-light": "#1c180d",
+                        "text-dark": "#f8f8f5",
+                        "text-muted-light": "#9c8749",
+                        "text-muted-dark": "#a39c81",
+                    },
+                    fontFamily: {
+                        "display": ["Manrope", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+    <style>
+        body {
+            scroll-behavior: smooth;
+        }
+
+        /* Estilos para o estado inicial da animação */
+        .scroll-animate {
+            opacity: 0;
+            transform: translateY(2rem);
+            transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+        }
+
+        /* Estilos para quando o elemento estiver visível */
+        .scroll-animate.is-visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+
+<body class="bg-background-light dark:bg-background-dark font-display text-text-light dark:text-text-dark">
+    <div class="relative flex min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+        <div class="layout-container flex h-full grow flex-col">
+            <header class="flex items-center justify-between p-4 sm:p-6 lg:p-8 absolute w-full z-10">
+                <div class="font-bold text-white"></div>
+                <nav class="hidden md:flex gap-6 text-white">
+                    <a href="#sobre" class="hover:text-primary transition-colors">Sobre</a>
+                    <a href="#autores" class="hover:text-primary transition-colors">Autores</a>
+                    <a href="#depoimentos" class="hover:text-primary transition-colors">Depoimentos</a>
+                </nav>
+            </header>
+            <main class="flex flex-1 justify-center">
+                <div class="layout-content-container flex flex-col w-full">
+                    <!-- HeroSection -->
+                    <div class="relative w-full">
+                        <div class="flex min-h-screen flex-col gap-6 bg-cover bg-center bg-no-repeat items-center justify-center p-4 text-center"
+                            data-alt="Silhuetas de mulheres em um caminho iluminado ao pôr do sol, transmitindo força e união."
+                            style='background-image: linear-gradient(rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.5) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuCy8aC9IXZ8oQjDAgOjLKGQyGLrpXTuI7azb7L1QQXXDubdS64r5otqBWHxWYGClZ50Rv_U3YKvO8ko3ydllS_olz8hI-gd3fnM__UewxIMbtlYATRroYRTq3msB7OmXD4oO0bj5ThFAZ0CEBtEmydAmu9cWNBAGM2pLVx0X6rv7dNdshLWwFe_AmuJbwguTGuIXecFACKLSlRs976te6g17ASCkUEaQxA9kYegVZPWPg2pROMu6vXKkx8wjJtS3IzVL-_wZdq8QvI");'>
+                            <div class="flex flex-col gap-4">
+                                                                <h2 class="text-white text-lg font-normal leading-normal md:text-xl">
+                                    Livro
+                                </h2>
+                                <h1
+                                    class="text-white text-5xl font-black leading-tight tracking-[-0.033em] md:text-7xl">
+                                    CAMINHOS DE <span class="text-primary">CORAGEM</span>
+                                </h1>
+                                <h2 class="text-white text-lg font-normal leading-normal md:text-xl">
+                                    Mulheres que iluminam e fazem a diferença
+                                </h2>
+                            </div>
+                            <button
+                                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-primary text-text-light text-base font-bold leading-normal tracking-[0.015em] hover:bg-opacity-90 transition-colors">
+                                <span class="truncate">ADQUIRA SEU EXEMPLAR</span>
+                            </button>
+                        </div>
+                    </div>
+                    <!-- FeatureSection: Sobre o Livro -->
+                    <div id="sobre" class="flex justify-center py-16 sm:py-24 px-4 scroll-animate">
+                        <div class="flex flex-col md:flex-row items-center gap-10 md:gap-16 max-w-5xl w-full">
+                            <div class="w-full md:w-2/5 flex justify-center">
+                                <img alt="Capa do livro Caminhos de Coragem"
+                                    class="rounded-lg shadow-2xl max-w-xs w-full object-cover aspect-[3/4]"
+                                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuBbZeRUwm7jhNioQI-saC2Gx57zAQ1viVpD2nPJ3iPwTeq6Ry4tmlWNxInJtVC0BSznjC-TQD3WPN4VzyCAU-oqCrGNh0jsbLu-PeUoiHhRd8O6NFGjfWRQtZiDT9aGnTmcq9fEkg5ht_hYOm-BIOoOCp_WiQGgMk_9kJ8utCya4jgo8e1U7wEdTogf2j8Q8ZoJU5-W2iv1ThA1AjRSx8wURdWY0ZI1Vte5AZ9-ZQuWp8s6E-MjpI-v17doJqk56GMYvx_pnl2pf1A" />
+                            </div>
+                            <div class="w-full md:w-3/5 flex flex-col gap-4 text-center md:text-left">
+                                <h2
+                                    class="text-text-light dark:text-text-dark text-3xl font-bold leading-tight tracking-[-0.015em] sm:text-4xl">
+                                    Sobre o Livro
+                                </h2>
+                                <p class="text-text-light dark:text-text-dark text-base font-normal leading-relaxed">
+                                    Uma coletânea de histórias inspiradoras de mulheres que superaram desafios e
+                                    deixaram sua marca. "Caminhos de Coragem" é um convite para vestir a alma de uma
+                                    vida de liderança interior, descobrindo a força que reside em cada jornada feminina.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Section: O que você vai encontrar -->
+                    <div class="bg-primary/10 dark:bg-primary/5 py-16 sm:py-24 scroll-animate">
+                        <div class="max-w-5xl mx-auto px-4 w-full">
+                            <div class="flex flex-col items-center text-center gap-4 mb-12">
+                                <h2
+                                    class="text-text-light dark:text-text-dark text-3xl font-bold leading-tight tracking-[-0.015em] sm:text-4xl">
+                                    O que você vai encontrar
+                                </h2>
+                                <p class="text-text-muted-light dark:text-text-muted-dark max-w-2xl">
+                                    Mergulhe em páginas repletas de inspiração, resiliência e empoderamento.
+                                </p>
+                            </div>
+                            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                                <div class="flex flex-col items-center text-center gap-3">
+                                    <div
+                                        class="flex items-center justify-center h-14 w-14 rounded-full bg-primary text-text-light">
+                                        <span class="material-symbols-outlined text-3xl">auto_stories</span>
+                                    </div>
+                                    <h3 class="font-bold text-lg">Histórias Reais</h3>
+                                    <p class="text-sm text-text-muted-light dark:text-text-muted-dark">Relatos
+                                        autênticos de superação que conectam e emocionam.</p>
+                                </div>
+                                <div class="flex flex-col items-center text-center gap-3">
+                                    <div
+                                        class="flex items-center justify-center h-14 w-14 rounded-full bg-primary text-text-light">
+                                        <span class="material-symbols-outlined text-3xl">emoji_objects</span>
+                                    </div>
+                                    <h3 class="font-bold text-lg">Inspiração Pessoal</h3>
+                                    <p class="text-sm text-text-muted-light dark:text-text-muted-dark">Encontre
+                                        motivação para trilhar sua própria jornada de coragem.</p>
+                                </div>
+                                <div class="flex flex-col items-center text-center gap-3">
+                                    <div
+                                        class="flex items-center justify-center h-14 w-14 rounded-full bg-primary text-text-light">
+                                        <span class="material-symbols-outlined text-3xl">psychology</span>
+                                    </div>
+                                    <h3 class="font-bold text-lg">Liderança Interior</h3>
+                                    <p class="text-sm text-text-muted-light dark:text-text-muted-dark">Ferramentas e
+                                        reflexões para fortalecer sua voz e suas decisões.</p>
+                                </div>
+                                <div class="flex flex-col items-center text-center gap-3">
+                                    <div
+                                        class="flex items-center justify-center h-14 w-14 rounded-full bg-primary text-text-light">
+                                        <span class="material-symbols-outlined text-3xl">verified_user</span>
+                                    </div>
+                                    <h3 class="font-bold text-lg">Autoconfiança</h3>
+                                    <p class="text-sm text-text-muted-light dark:text-text-muted-dark">Mensagens
+                                        poderosas para cultivar o empoderamento no dia a dia.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Profile Section -->
+                    <div id="autores" class="py-16 sm:py-24 px-4 scroll-animate">
+                        <div class="max-w-5xl mx-auto flex flex-col gap-12 w-full">
+                            <h2
+                                class="text-text-light dark:text-text-dark text-3xl font-bold leading-tight tracking-[-0.015em] text-center sm:text-4xl">
+                                Conheça as mentes por trás do livro</h2>
+                            <!-- ProfileHeader: Coordenadora -->
+                            <div class="flex p-4 @container">
+                                <div class="flex w-full flex-col gap-6 @[520px]:flex-row @[520px]:items-center">
+                                    <div class="flex-shrink-0 bg-center bg-no-repeat aspect-square bg-cover rounded-full h-36 w-36 mx-auto"
+                                        data-alt="Retrato de Juliana P., uma mulher inspiradora e acessível."
+                                        style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCndVVDkqP7ZzHKrWRc94UECkNjFX8drW_vZHf4XlqbZihkypm8MYK3LCFkjxh6RspdRGtLUWPTSAHxNJTCtRMJbO4WYY0agMKe-aDd0_ZRh2an_WOZzve7QGlHkrULAgzpgcVfKP9BdVY6a-sYPKRQXfdPc5rkelupmHBnhkoXwY16NCuhtEtrUvYXQ6mORi9qrm2QlJopkA6gpuw5kRr9vGI4arb8nc2yYYGnLdEXnQGau6ps7B6IIeAQoaVVjeX5cwD00OLS3M4");'>
+                                    </div>
+                                    <div class="flex flex-col justify-center text-center @[520px]:text-left">
+                                        <p
+                                            class="text-text-light dark:text-text-dark text-[22px] font-bold leading-tight tracking-[-0.015em]">
+                                            JULIANA P.</p>
+                                        <p
+                                            class="text-text-muted-light dark:text-text-muted-dark text-base font-normal leading-normal">
+                                            Autora e Coordenadora do Livro</p>
+                                        <p
+                                            class="text-text-muted-light dark:text-text-muted-dark text-base font-normal leading-normal mt-2">
+                                            Responsável pela curadoria e coordenação primorosa das histórias que compõem
+                                            esta obra, garantindo que cada voz brilhasse com sua própria luz.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ProfileHeader: Autora -->
+                            <div class="flex p-4 @container">
+                                <div class="flex w-full flex-col gap-6 @[520px]:flex-row-reverse @[520px]:items-center">
+                                    <div class="flex-shrink-0 bg-center bg-no-repeat aspect-square bg-cover rounded-full h-36 w-36 mx-auto"
+                                        data-alt="Retrato de Jalila M. P., uma mulher inspiradora e reflexiva."
+                                        style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuALEcIrcZ7oKMt6wYEtj7BjFX3c9nWFTgnf3z-oI6gCqkawGJ53wjiknIFvCMyCr1meszj1_8t91EK0hH2UOxV19pBTsD87HYJEmaKnCHHMK8bMK_hfIu7rfEeqcDsZjGdW-9ysgXoM1oBOdGKwOJ9kQHxGKWp3I6AOnDwH8eVMZNmgk3ENdSpJME6MOddkxvA0Q0QT2XmnZx8fxsdWNDfHBzy55yFawBse3CxT30Cbvjae7g1wLNmbeNEJH1kvB0vSZ74RZSBHWJc");'>
+                                    </div>
+                                    <div class="flex flex-col justify-center text-center @[520px]:text-right">
+                                        <p
+                                            class="text-text-light dark:text-text-dark text-[22px] font-bold leading-tight tracking-[-0.015em]">
+                                            JALILA M. P.</p>
+                                        <p
+                                            class="text-text-muted-light dark:text-text-muted-dark text-base font-normal leading-normal">
+                                            Autora do capítulo: Coragem é contagiante</p>
+                                        <p
+                                            class="text-text-muted-light dark:text-text-muted-dark text-base font-normal leading-normal italic mt-2">
+                                            "Coragem é a força que nos move a transformar o mundo, uma história de cada
+                                            vez."</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimonials Section -->
+                    <div id="depoimentos" class="bg-primary/10 dark:bg-primary/5 py-16 sm:py-24 scroll-animate">
+                        <div class="max-w-5xl mx-auto px-4 w-full">
+                            <div class="flex flex-col items-center text-center gap-4 mb-12">
+                                <h2
+                                    class="text-text-light dark:text-text-dark text-3xl font-bold leading-tight tracking-[-0.015em] sm:text-4xl">
+                                    Depoimentos que Inspiram
+                                </h2>
+                                <p class="text-text-muted-light dark:text-text-muted-dark max-w-2xl">
+                                    Veja o que as leitoras estão dizendo sobre "Caminhos de Coragem".
+                                </p>
+                            </div>
+                            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                                <div
+                                    class="bg-background-light dark:bg-background-dark p-6 rounded-lg shadow-md flex flex-col items-center text-center">
+                                    <p class="italic text-text-muted-light dark:text-text-muted-dark">"Uma leitura
+                                        transformadora! Senti minha força renovada a cada página. Essencial para toda
+                                        mulher que busca se reconectar com seu poder interior."</p>
+                                    <p class="font-bold text-text-light dark:text-text-dark mt-4">- Ana C.</p>
+                                </div>
+                                <div
+                                    class="bg-background-light dark:bg-background-dark p-6 rounded-lg shadow-md flex flex-col items-center text-center">
+                                    <p class="italic text-text-muted-light dark:text-text-muted-dark">"As histórias são
+                                        tão reais e emocionantes que me vi em muitas delas. O livro é um abraço na alma
+                                        e um chamado à ação."</p>
+                                    <p class="font-bold text-text-light dark:text-text-dark mt-4">- Beatriz S.</p>
+                                </div>
+                                <div
+                                    class="bg-background-light dark:bg-background-dark p-6 rounded-lg shadow-md flex flex-col items-center text-center">
+                                    <p class="italic text-text-muted-light dark:text-text-muted-dark">"Caminhos de
+                                        Coragem é mais que um livro, é um movimento. Me inspirou a dar o primeiro passo
+                                        em direção aos meus sonhos."</p>
+                                    <p class="font-bold text-text-light dark:text-text-dark mt-4">- Mariana L.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- CTA Section -->
+                    <div class="py-16 sm:py-24 px-4 text-center scroll-animate">
+                        <div class="max-w-3xl mx-auto flex flex-col items-center gap-6 w-full">
+                            <h2
+                                class="text-text-light dark:text-text-dark text-4xl font-extrabold leading-tight tracking-[-0.033em] sm:text-5xl">
+                                Garanta já o seu exemplar!
+                            </h2>
+                            <p class="text-text-muted-light dark:text-text-muted-dark text-lg max-w-xl">
+                                Junte-se a milhares de mulheres em uma jornada de inspiração e empoderamento. Adquira
+                                sua cópia e comece a trilhar seu próprio caminho de coragem hoje mesmo.
+                            </p>
+                            <button
+                                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-14 px-8 bg-primary text-text-light text-lg font-bold leading-normal tracking-[0.015em] hover:bg-opacity-90 transition-colors">
+                                <span class="truncate">COMPRAR AGORA</span>
+                            </button>
+                        </div>
+                    </div>
+                    <!-- Footer -->
+                    <footer class="bg-background-dark text-background-light py-10 px-4">
+                        <div
+                            class="max-w-5xl mx-auto flex flex-col sm:flex-row justify-between items-center text-center sm:text-left gap-6">
+                            <div>
+                                <p class="font-bold text-lg">Caminhos de Coragem</p>
+                                <p class="text-sm text-gray-400">© 2025 Sensibiliza Editora Social. Todos os direitos
+                                    reservados.</p>
+                            </div>
+                            <div class="flex items-center gap-4">
+                                <a aria-label="Facebook" class="text-gray-400 hover:text-primary transition-colors"
+                                    href="#">
+                                    <svg aria-hidden="true" class="h-6 w-6" fill="currentColor" viewbox="0 0 24 24">
+                                        <path clip-rule="evenodd"
+                                            d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                                            fill-rule="evenodd"></path>
+                                    </svg>
+                                </a>
+                                <a aria-label="Instagram" class="text-gray-400 hover:text-primary transition-colors"
+                                    href="#">
+                                    <svg aria-hidden="true" class="h-6 w-6" fill="currentColor" viewbox="0 0 24 24">
+                                        <path clip-rule="evenodd"
+                                            d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.024.06 1.378.06 3.808s-.012 2.784-.06 3.808c-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.024.048-1.378.06-3.808.06s-2.784-.012-3.808-.06c-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.048-1.024-.06-1.378-.06-3.808s.012-2.784.06-3.808c.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 016.345 2.525c.636-.247 1.363-.416 2.427-.465C9.793 2.013 10.147 2 12.315 2zm-1.161 4.573a4.125 4.125 0 11-5.832 5.832 4.125 4.125 0 015.832-5.832zM12 15a3 3 0 110-6 3 3 0 010 6zm4.875-8.25a1.125 1.125 0 11-2.25 0 1.125 1.125 0 012.25 0z"
+                                            fill-rule="evenodd"></path>
+                                    </svg>
+                                </a>
+                                <a aria-label="Email" class="text-gray-400 hover:text-primary transition-colors"
+                                    href="#">
+                                    <span class="material-symbols-outlined">mail</span>
+                                </a>
+                            </div>
+                        </div>
+                    </footer>
+                </div>
+            </main>
+        </div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const animatedElements = document.querySelectorAll(".scroll-animate");
+
+            if ("IntersectionObserver" in window) {
+                const observer = new IntersectionObserver((entries, observer) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add("is-visible");
+                            observer.unobserve(entry.target);
+                        }
+                    });
+                }, { threshold: 0.1 });
+
+                animatedElements.forEach(el => {
+                    observer.observe(el);
+                });
+            }
+        });
+    </script>
+</body>
+
+</html>
